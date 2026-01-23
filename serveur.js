@@ -35,7 +35,7 @@ app.get("/roblox", (req, res) => {
   pendingAction = [];
 });
 
-app.get("/", (res) => {
+app.get("/", (req, res) => {
   res.send("API en ligne")
 });
 
